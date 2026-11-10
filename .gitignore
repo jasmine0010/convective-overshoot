@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+__pycache__/
+.pytest_cache/
+
+# Simulation output: too large for git; keep only per-run metadata
+data/**
+!data/**/
+!data/**/info.json
+*.h5
+
+# Scratch files and merge leftovers
+tmp/
+*.orig
+
+# 237 MB because outputs are saved in it (GitHub limit is 100 MB).
+# Clear outputs (jupyter nbconvert --clear-output --inplace) before un-ignoring.
+convection_og.ipynb

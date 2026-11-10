@@ -1,0 +1,145 @@
+{
+  "errors": {
+    "C1": {
+      "fitted_exponential": {
+        "mean_full_profile_rmse": 0.0010736721187180425,
+        "mean_stable_layer_rmse": 0.0008181111868683456,
+        "final_stable_layer_mass_error_over_injected_mass": -0.00014382872212344725,
+        "max_abs_total_mass_drift": 4.850564394587412e-13
+      },
+      "constant_training_fit": {
+        "mean_full_profile_rmse": 0.030256085054337568,
+        "mean_stable_layer_rmse": 0.03299401894312905,
+        "final_stable_layer_mass_error_over_injected_mass": 0.01100964890053594,
+        "max_abs_total_mass_drift": 1.1838308111578295e-12
+      },
+      "flux-gradient": {
+        "mean_full_profile_rmse": 0.0019604121310530355,
+        "mean_stable_layer_rmse": 0.0013567966015408067,
+        "final_stable_layer_mass_error_over_injected_mass": 0.0020013168990294992,
+        "max_abs_total_mass_drift": 8.804068585277678e-14
+      },
+      "molecular_only": {
+        "mean_full_profile_rmse": 0.055206438043400204,
+        "mean_stable_layer_rmse": 0.03604412948704712,
+        "final_stable_layer_mass_error_over_injected_mass": -0.058460609344012454,
+        "max_abs_total_mass_drift": 4.086730953645288e-13
+      },
+      "cz_mixing_only": {
+        "mean_full_profile_rmse": 0.0054387972185299905,
+        "mean_stable_layer_rmse": 0.004279898666519426,
+        "final_stable_layer_mass_error_over_injected_mass": -0.00573002865529624,
+        "max_abs_total_mass_drift": 5.664357871637669e-13
+      }
+    },
+    "C2": {
+      "fitted_exponential": {
+        "mean_full_profile_rmse": 0.006274718262808708,
+        "mean_stable_layer_rmse": 0.0031530540560309943,
+        "final_stable_layer_mass_error_over_injected_mass": 0.0010507022525711696,
+        "max_abs_total_mass_drift": 1.6320278461990148e-14
+      },
+      "constant_training_fit": {
+        "mean_full_profile_rmse": 0.0708344423008336,
+        "mean_stable_layer_rmse": 0.053266787060363904,
+        "final_stable_layer_mass_error_over_injected_mass": -0.019529142415283657,
+        "max_abs_total_mass_drift": 2.3081536681957494e-13
+      },
+      "flux-gradient": {
+        "mean_full_profile_rmse": 0.007573745850881456,
+        "mean_stable_layer_rmse": 0.004398079614918378,
+        "final_stable_layer_mass_error_over_injected_mass": 0.004218471180821615,
+        "max_abs_total_mass_drift": 2.6534330288541803e-14
+      },
+      "molecular_only": {
+        "mean_full_profile_rmse": 0.09948601063372442,
+        "mean_stable_layer_rmse": 0.06829919470428741,
+        "final_stable_layer_mass_error_over_injected_mass": -0.09378123577340639,
+        "max_abs_total_mass_drift": 1.6286971771251392e-13
+      },
+      "cz_mixing_only": {
+        "mean_full_profile_rmse": 0.012018322971014414,
+        "mean_stable_layer_rmse": 0.009226117591010715,
+        "final_stable_layer_mass_error_over_injected_mass": -0.009293840390732245,
+        "max_abs_total_mass_drift": 5.295763827462109e-14
+      }
+    },
+    "C3": {
+      "fitted_exponential": {
+        "mean_full_profile_rmse": 0.01271255431796738,
+        "mean_stable_layer_rmse": 0.007441686027804836,
+        "final_stable_layer_mass_error_over_injected_mass": 0.0024510995025129904,
+        "max_abs_total_mass_drift": 1.898481372109058e-14
+      },
+      "constant_training_fit": {
+        "mean_full_profile_rmse": 0.0966256157166478,
+        "mean_stable_layer_rmse": 0.06338091424679922,
+        "final_stable_layer_mass_error_over_injected_mass": 0.042120679689699424,
+        "max_abs_total_mass_drift": 2.3347990207867537e-13
+      },
+      "flux-gradient": {
+        "mean_full_profile_rmse": 0.014788741698625036,
+        "mean_stable_layer_rmse": 0.009517895769269813,
+        "final_stable_layer_mass_error_over_injected_mass": 0.00553578025433236,
+        "max_abs_total_mass_drift": 2.2981616609741226e-14
+      },
+      "molecular_only": {
+        "mean_full_profile_rmse": 0.09429817980915431,
+        "mean_stable_layer_rmse": 0.04217702376846553,
+        "final_stable_layer_mass_error_over_injected_mass": 0.0010349211914081797,
+        "max_abs_total_mass_drift": 1.6175949468788874e-13
+      },
+      "cz_mixing_only": {
+        "mean_full_profile_rmse": 0.013340483424318109,
+        "mean_stable_layer_rmse": 0.0077599357181058325,
+        "final_stable_layer_mass_error_over_injected_mass": -0.006116227238879835,
+        "max_abs_total_mass_drift": 5.784261958297188e-14
+      }
+    }
+  },
+  "fit": {
+    "C1_training_window": [
+      2000.0,
+      2150.0
+    ],
+    "D_cz": 0.010462890900726655,
+    "w_rms_cz": 0.0844380083778213,
+    "ell_mix_fit": 0.37173629867879016,
+    "lambda_E": 2.5,
+    "ell_mix_fit_over_Lcz": 0.37173629867879016,
+    "lambda_E_over_Lcz": 2.5,
+    "lambda_over_Lcz": 0.019718987592094252,
+    "D_boundary": 0.005670847683884094,
+    "constant_D": 0.0005423250959205819,
+    "exponential_fit_at_bounds": false,
+    "weakly_constrained": false,
+    "exponential_fit_success": true,
+    "constant_fit_success": true
+  },
+  "convergence_C1": {
+    "Nz=150,dt=0.200153": {
+      "mean_full_profile_rmse": 0.0010776466716239804,
+      "mean_stable_layer_rmse": 0.0008247640757473007,
+      "final_stable_layer_mass_error_over_injected_mass": -0.00015973436414298798,
+      "max_abs_total_mass_drift": 2.4147350785597655e-13
+    },
+    "Nz=150,dt=0.100077": {
+      "mean_full_profile_rmse": 0.0010749199737051665,
+      "mean_stable_layer_rmse": 0.0008200867520074115,
+      "final_stable_layer_mass_error_over_injected_mass": -0.00015390539838563505,
+      "max_abs_total_mass_drift": 7.719380690218874e-13
+    },
+    "Nz=300,dt=0.200153": {
+      "mean_full_profile_rmse": 0.0010763411798693611,
+      "mean_stable_layer_rmse": 0.0008227471115156333,
+      "final_stable_layer_mass_error_over_injected_mass": -0.00014965721660360388,
+      "max_abs_total_mass_drift": 4.601874437071372e-13
+    },
+    "Nz=300,dt=0.100077": {
+      "mean_full_profile_rmse": 0.0010736721187180425,
+      "mean_stable_layer_rmse": 0.0008181111868683456,
+      "final_stable_layer_mass_error_over_injected_mass": -0.00014382872212344725,
+      "max_abs_total_mass_drift": 4.850564394587412e-13
+    }
+  }
+}
